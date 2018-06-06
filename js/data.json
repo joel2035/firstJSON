@@ -1,15 +1,15 @@
 {
   "page0": {
     "index": "0",
-    "text": "Bienvenue dans cet épreuve: maintenant faites votre choix",
+    "text": "Welcome to this event: now make your choice",
     "img": "img/hero.png",
     "droite": "page1",
     "gauche": "page5"
   },
   "page1": {
     "index": "1",
-    "text": "Faites attention tout les conseils ne sont pas toujours bon ",
-    "text1": "je te conseil de prendre à droite",
+    "text": "Be careful all the advice is not always good ",
+    "text1": "I advise you to take a right",
     "yes": "page2",
     "no": "page5",
 
@@ -21,15 +21,15 @@
 
   "page2": {
     "index2": "2",
-    "text": "choisir la bonne direction",
+    "text": "choose the right direction",
     "img": "img/hero.png",
     "droite": "page5",
     "gauche": "page3"
   },
   "page3": {
     "index": "3",
-    "text": "Faites attention tout les conseils ne sont pas toujours bon ",
-    "text": "je te conseil de prendre à droite",
+    "text": "Be careful all the advice is not always good ",
+    "text": "",
     "yes": "page4",
     "no": "page5",
     "img": {
@@ -38,13 +38,13 @@
     }
   },
   "page4": {
-    "text": "Bravo Vous avez réussir à sortie !",
+    "text": "Congratulations You have successfully released !",
     "img": "img/img9.png"
   },
 
 
   "page5": {
-    "text": "Vous  vous êtes perdu !",
+    "text": "You are lost !",
     "img": "img/img10.png"
   }
 
