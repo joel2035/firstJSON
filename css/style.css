@@ -150,6 +150,9 @@ li:last-child {
   background: url("../img/img1.jpg") no-repeat;
   background-position: center;
   display: none; }
+  .shwocase1_title {
+    position: relative;
+    top: 15%; }
   .shwocase1_titleContent {
     text-align: center;
     position: relative;
@@ -412,10 +415,22 @@ li:last-child {
   .shwocase2_title {
     text-align: center;
     position: relative;
-    top: 80%;
+    top: 15%;
     font-size: 30px;
-    color: #000000;
-    font-weight: bold; }
+    color: #8ACB88;
+    font-family: 'Josefin Sans', sans-serif; }
+  .shwocase2_titleContent {
+    text-align: center;
+    position: relative;
+    top: 85%;
+    font-size: 30px;
+    color: #8ACB88;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFF;
+    width: 50%;
+    margin: 0 auto;
+    height: 70px; }
   .shwocase2_content {
     width: 80%;
     margin: 0 auto; }
@@ -629,7 +644,7 @@ li:last-child {
     font-size: 30px;
     color: #8ACB88;
     font-family: 'Josefin Sans', sans-serif;
-    ox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     background-color: #FFF;
     width: 40%;
@@ -894,7 +909,7 @@ li:last-child {
     font-family: Open -sans;
     top: 40%;
     color: #FFF;
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 400px; }
     .shwocase5_content_img {
       width: 20%;

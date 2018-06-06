@@ -15,6 +15,10 @@ transform: translate3d(0, -100%, 0);
   background: url("../img/img1.jpg")  no-repeat;
  background-position: center;
  display: none;
+ &_title{
+   position: relative;
+   top: 15%;
+ }
  &_titleContent{
    text-align: center;
 position: relative;

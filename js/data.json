@@ -29,7 +29,7 @@
   "page3": {
     "index": "3",
     "text": "Be careful all the advice is not always good ",
-    "text": "",
+    "text": "I advise you to take a right",
     "yes": "page4",
     "no": "page5",
     "img": {
