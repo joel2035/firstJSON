@@ -1,0 +1,31 @@
+.shwocase5{
+  width: 100%;
+  margin: 0 auto;
+  height: 720px;
+  background: url("../img/img7.jpg")  no-repeat;
+background-position: center;
+display: none;
+&_content{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  font-family: Open -sans;
+  top: 40%;
+  color: #FFF;
+  font-size: 5vw;
+  font-weight: 400px;
+   &_title{
+}
+&_img{
+  width: 20%;
+  margin:0 auto;
+opacity: 20px;
+margin-top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 25px;
+backface-visibility: hidden;
+
+}
+}
+}

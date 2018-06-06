@@ -1,0 +1,55 @@
+.shwocase4{
+  width: 100%;
+  margin: 0 auto;
+  height:720px;
+  background: url("../img/img5.jpg")  no-repeat;
+
+display: none;
+background-position: center;
+animation-name:fadeOutUp;
+animation-duration: 4s;
+
+&_title{
+
+}
+&_content{
+top: -1%;
+
+ width: 80%;
+ margin: 0 auto;
+
+ &_img{
+   width: 80%;
+   margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+   &_1{
+     width: 30%;
+     background: red;
+
+   }
+   &_gif{
+     width: 100%;
+   }
+   &_2{
+     width: 30%;
+     background: red;
+   }
+   &_gif1{
+     width: 100%;
+   }
+
+ }
+ &_text{
+
+   width: 50%;
+   margin: 0 auto;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 30px;
+
+ }
+}
+}

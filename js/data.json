@@ -1,0 +1,53 @@
+{
+  "page0": {
+    "index": "0",
+    "text": "Bienvenue dans cet épreuve: maintenant faites votre choix",
+    "img": "img/hero.png",
+    "droite": "page1",
+    "gauche": "page5"
+  },
+  "page1": {
+    "index": "1",
+    "text": "Faites attention tout les conseils ne sont pas toujours bon ",
+    "text1": "je te conseil de prendre à droite",
+    "yes": "page2",
+    "no": "page5",
+
+    "hero": "img/hero.png",
+    "conseiller": "img/conseiller1.png"
+
+
+  },
+
+  "page2": {
+    "index2": "2",
+    "text": "choisir la bonne direction",
+    "img": "img/hero.png",
+    "droite": "page5",
+    "gauche": "page3"
+  },
+  "page3": {
+    "index": "3",
+    "text": "Faites attention tout les conseils ne sont pas toujours bon ",
+    "text": "je te conseil de prendre à droite",
+    "yes": "page4",
+    "no": "page5",
+    "img": {
+      "hero": "img/hero.png",
+      "conseiller": "conseiller2.png"
+    }
+  },
+  "page4": {
+    "text": "Bravo Vous avez réussir à sortie !",
+    "img": "img/img9.png"
+  },
+
+
+  "page5": {
+    "text": "Vous  vous êtes perdu !",
+    "img": "img/img10.png"
+  }
+
+
+
+}

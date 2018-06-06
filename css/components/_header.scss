@@ -1,0 +1,91 @@
+
+  @keyframes fadeOutUp {
+  0% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Open - sans;
+
+ }
+#header{
+  width: 100%;
+  margin: 0 auto;
+  height:779px;
+  background: url("../img/img5.jpg")  no-repeat;
+  background-position: center;
+}
+.Title{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+
+}
+li{
+  display: inline-block;
+  color: #000000;
+  font-size: 2.5em;
+  margin-right: 20px;
+  font-weight: 400px;
+  font-family: Open -sans;
+  transition: all 2.5s ease;
+  opacity: 1px;
+}
+li:last-child{
+  margin-right: 0px;
+}
+.hidden li{
+
+
+}
+.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px);;}
+.hidden li:nth-child(2) { transform: translateX(-240px) translateY(180px);}
+.hidden li:nth-child(3) { transform: translateX(-200px) translateY(-150px);}
+.hidden li:nth-child(4) { transform: translateX(-100px) translateY(-100px);}
+.hidden li:nth-child(5) { transform: translateX(300px) translateY(-180px);}
+.hidden li:nth-child(6) { transform: translateX(-200px) translateY(130px);}
+.hidden li:nth-child(7) { transform: translateX(-200px) translateY(-200px);}
+.hidden li:nth-child(8) { transform: translateX(205px) translateY(100px);}
+.hidden li:nth-child(9) { transform: translateX(210px) translateY(-180px);}
+.hidden li:nth-child(10) { transform: translateX(-200px) translateY(-200px);}
+.hidden li:nth-child(11) { transform: translateX(240px) translateY(-150px);}
+.hidden li:nth-child(12) { transform: translateX(280px) translateY(180px);}
+.hidden li:nth-child(13) { transform: translateX(300px) translateY(-200px);}
+
+.btn{
+  outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color:red;
+    width: 250px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+
+
+    height: 70px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+  transition: all 2.5s ease;
+display: none;
+cursor: pointer;
+
+}
+.btn:hover{
+  background-color: green;
+  transition: .24s ease;
+  font-size: 20px;
+
+}
