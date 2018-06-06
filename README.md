@@ -1,7 +1,5 @@
 # Projet d' histoire interactive
-formation ajax apprentissage donc la consigne  était un cré une histoire une interactif avec plusieur fin differentes
-
-
+Formation Ajax, apprentissage donc la consigne était un crée une histoire une interactive avec plusieurs fins différentes
 ## techno utiliser
 `html, scss, javascript, json`
 
