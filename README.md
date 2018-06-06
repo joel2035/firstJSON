@@ -1,5 +1,5 @@
 # Projet d' histoire interactive
-formation ajax apprentissage donc le but était un cré une histoire une interactif avec plusieur fin differentes
+formation ajax apprentissage donc la consigne  était un cré une histoire une interactif avec plusieur fin differentes
 
 
 ## techno utiliser
